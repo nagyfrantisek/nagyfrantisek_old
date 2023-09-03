@@ -1,0 +1,10 @@
+---
+layout: photo
+title: JD 9580i
+thumbnail: jd9580iwts.jpg
+date: 2022-07-15 14:49:40
+description: John Deere 9580i wts
+---
+
+<img alt="John Deere 9580i wts" src="{{ site.photourl }}jd9580iwts.jpg">
+John Deere

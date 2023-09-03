@@ -1,0 +1,12 @@
+---
+layout: photo
+title: Vojany
+thumbnail: vojany.jpg
+date: 2015-10-06 21:04:40
+description: Vojany Power Station (Elektrárne Vojany)
+---
+
+<img alt="Vojany Power Station" src="{{ site.photourl }}vojany.jpg">
+
+Vojany Power Station (Elektrárne Vojany)
+

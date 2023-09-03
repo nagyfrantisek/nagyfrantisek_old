@@ -1,0 +1,11 @@
+---
+layout: photo
+title: Case IH 6140
+thumbnail: case.jpg
+date: 2022-07-16 16:39:40
+description: Case IH 6140
+---
+
+<img alt="Case IH 6140" src="{{ site.photourl }}case.jpg">
+
+Case IH 6140

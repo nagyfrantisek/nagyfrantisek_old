@@ -1,0 +1,17 @@
+pre {
+    background-color: #f8f8f8;
+    padding: 6px 12px;
+    white-space: pre;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
+    border-left: 3px solid #FF0F00;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+   }
+pre::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+code {
+    max-width:100%;
+    min-width:100px;
+}

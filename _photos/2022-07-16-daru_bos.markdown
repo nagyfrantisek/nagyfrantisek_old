@@ -1,0 +1,11 @@
+---
+layout: photo
+title: Daru
+thumbnail: daru_bos.jpg
+date: 2022-07-16 12:24:02
+description: Gabčíkovo–Nagymaros Waterworks
+---
+
+<img alt="Gabčíkovo–Nagymaros Waterworks" src="{{ site.photourl }}daru_bos.jpg">
+
+Gabčíkovo–Nagymaros Waterworks

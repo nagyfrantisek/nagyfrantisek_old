@@ -1,0 +1,9 @@
+---
+layout: photo
+title: Case
+thumbnail: casetraktor.jpg
+date: 2022-07-15 15:00:40
+description: Case IH
+---
+
+<img alt="Case IH" src="{{ site.photourl }}/casetraktor.jpg">

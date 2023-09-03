@@ -1,0 +1,11 @@
+---
+layout: photo
+title: Airbus A320
+thumbnail: G-EUYO.jpg
+date: 2022-08-10 15:56:34
+description: Airbus A320 - G-EUYO - Airline British Airways
+---
+
+<img alt="Airbus A320" src="{{ site.photourl }}G-EUYO.jpg">
+
+Airbus A320 - G-EUYO - Airline British Airways

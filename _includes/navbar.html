@@ -1,0 +1,20 @@
+    <div class="wrapper">
+        <div class="navbar container">
+            {% if site.ins_logo %}
+                <img id="ins-logo" src="{{ site.ins_logo }}" />
+            {% endif %}
+            <a id="author-name" class="alignable pull-left" href="{{ site.url }}{{ site.baseurl }}"><span style="font-weight: bold">Frantisek</span> Nagy</a>
+            <ul id="navlist" class="alignable pull-right navbar-ul">
+                {% for x in site.nav %}
+                    {% if x.name == "Resume" %}
+                        <li class="alignable pull-left nav-list"><a target="_blank" href="{{ x.link }}">{{ x.name }}</a>
+                    {% else %}
+                        <li class="alignable pull-left nav-list"><a href="{{ x.link | prepend: site.baseurl}}">{{ x.name }}</a>
+                    {% endif %}
+                    {% if forloop.last == false %}
+                        /
+                    {% endif %}
+                        </li>
+                {% endfor %}
+            </ul>
+        </div>

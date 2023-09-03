@@ -1,0 +1,11 @@
+---
+layout: photo
+title: Skoda Octavia
+thumbnail: octavia.jpg
+date: 2022-08-10 15:46:19
+description: Skoda Octavia
+---
+
+<img alt="Skoda Octavia" src="{{ site.photourl }}octavia.jpg">
+
+Skoda Octavia [https://azeszaki.hu/hu](https://azeszaki.hu/hu)

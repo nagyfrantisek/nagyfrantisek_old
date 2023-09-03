@@ -1,0 +1,16 @@
+{% include head.html %}
+<body>
+{% include navbar.html %}
+        <div style="clear:both"></div>
+        <hr>
+        {% if page.is_contact == true %}
+            <div class="container content contact">
+        {% else %}
+            <div class="container content">
+        {% endif %}
+                {{ content }}
+                {% include footer.html %}
+            </div>
+    </div>
+</body>
+</html>

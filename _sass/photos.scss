@@ -1,0 +1,22 @@
+/* First the Grid */
+.gallery-grid {
+
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* The Images */
+.gallery-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.gallery-img:hover {
+  opacity: .7;
+}

@@ -1,0 +1,29 @@
+title: Frantisek Nagy
+url: "https://nagy.sh"
+baseurl:
+
+markdown: kramdown
+#ins_logo: "./bits-logo.png"
+
+thumburl: /images/thumb/
+photourl: /images/
+
+footer: yes
+footer_url: "https://github.com"
+footer_text: "<em>What doesn't kill you makes you smaller (Super Mario)</em>"
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+nav:
+ - name: "About"
+   link: "/"
+ - name: "Notes"
+   link: "/posts"
+ - name: "Photos"
+   link: "/photos"
+
+collections:
+  photos:
+    output: true

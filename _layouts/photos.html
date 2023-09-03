@@ -1,0 +1,16 @@
+{% include head.html %}
+<body>
+{% include navbar.html %}
+        <div style="clear:both"></div>
+        <hr>
+            <div class="container content photos">
+                <div class="gallery-grid">
+                    {% for item in site.photos reversed %}
+                    <a href="{{ item.url | prepend: site.baseurl }}"><img class="gallery-img" src="{{ site.thumburl }}{{ item.thumbnail }}" alt="{{ item.title }}"></a>
+                    {% endfor %}
+                </div>
+        {% include footer.html %}
+    </div>
+</div>
+</body>
+</html>

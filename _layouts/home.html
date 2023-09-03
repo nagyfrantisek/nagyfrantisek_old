@@ -1,0 +1,23 @@
+{% include head.html %}
+<body>
+{% include navbar.html %}
+        <div style="clear:both"></div>
+        <hr>
+        {% if page.is_contact == true %}
+            <div class="container content contact">
+        {% else %}
+            <div class="container content">
+        {% endif %}
+                {{ content }}
+                <hr>
+                <h2>Recent notes</h2>
+                <ul>
+                {% for post in site.posts limit:5 %}
+                  <li>{{ post.date | date: "%d %B %Y" }} - <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+                {% endfor %}
+                </ul>
+                {% include footer.html %}
+            </div>
+    </div>
+</body>
+</html>

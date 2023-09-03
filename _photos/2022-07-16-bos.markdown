@@ -1,0 +1,11 @@
+---
+layout: photo
+title: Bős
+thumbnail: bos.jpg
+date: 2022-07-16 12:23:56
+description: Gabčíkovo–Nagymaros Waterworks
+---
+
+<img alt="Gabčíkovo–Nagymaros Waterworks" src="{{ site.photourl }}bos.jpg">
+
+Gabčíkovo–Nagymaros Waterworks
