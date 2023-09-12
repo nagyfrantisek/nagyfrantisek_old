@@ -2,6 +2,8 @@ title: Frantisek Nagy
 url: "https://nagy.sh"
 baseurl:
 
+timezone: Europe/Bratislava
+
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
 
