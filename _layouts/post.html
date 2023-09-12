@@ -3,12 +3,12 @@
 {% include navbar.html %}
         <div style="clear:both"></div>
         <hr>
-        <h2>{{ page.title }}</h2>
         {% if page.is_contact == true %}
             <div class="container content contact">
         {% else %}
             <div class="container content">
         {% endif %}
+                <h2>{{ page.title }}</h2>
                 {{ content }}
                 {% include footer.html %}
             </div>
