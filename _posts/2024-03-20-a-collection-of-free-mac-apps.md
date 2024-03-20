@@ -30,3 +30,5 @@ description: A collection of free Mac Apps
 [MacMouseFix](https://macmousefix.com) - app for 3rd party mouse
 
 [Maccy](https://maccy.app) - clipboard manager
+
+[Auth](https://apps.apple.com/app/id6444121398) - two-factor authenticator
