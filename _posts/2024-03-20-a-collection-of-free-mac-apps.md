@@ -32,3 +32,5 @@ description: A collection of free Mac Apps
 [Maccy](https://maccy.app) - clipboard manager
 
 [Auth](https://apps.apple.com/app/id6444121398) - two-factor authenticator
+
+[NetNewsWire](https://netnewswire.com) - RSS reader
