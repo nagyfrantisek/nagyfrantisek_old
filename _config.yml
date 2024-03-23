@@ -29,3 +29,9 @@ nav:
 collections:
   photos:
     output: true
+
+plugins:
+  - jekyll-paginate
+
+paginate: 9
+paginate_path: "/page:num/"

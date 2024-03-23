@@ -9,6 +9,14 @@
                     <a href="{{ item.url | prepend: site.baseurl }}"><img class="gallery-img" src="{{ site.thumburl }}{{ item.thumbnail }}" alt="{{ item.title }}"></a>
                     {% endfor %}
                 </div>
+                <div class="post-nav">
+                    {% if photos.next.url %}
+                      <a class="nav-item" href="{{ photos.next.url | prepend: site.baseurl }}">&laquo; Prev</a>
+                    {% endif %}
+                    {% if photos.previous.url %}
+                      <a class="nav-item" href="{{ photos.previous.url | prepend: site.baseurl }}">Next &raquo;</a>
+                    {% endif %}
+                  </div>
         {% include footer.html %}
     </div>
 </div>
