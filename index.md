@@ -16,7 +16,7 @@ When I’m not teaching or coding, I can often be found tinkering with my 3D pri
 
 ## Contact
 
-* Mail: [hello@nagy.sh](mailto:hello@nagy.sh)
+* Mail: [nagy@duck.com](mailto:nagy@duck.com)
 * Mastodon: [mastodon.social/@frantiseknagy](https://mastodon.social/@frantiseknagy)
 * Github: [github.com/nagyfrantisek](https://github.com/nagyfrantisek)
 * Facebook: [facebook.com/nfrantisek](https://facebook.com/nfrantisek)
